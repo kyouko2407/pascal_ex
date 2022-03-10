@@ -23,4 +23,4 @@ begin
     close(inp);close(oup);
     readln
 end.
-
+//Tang Quang Dung
