@@ -15,3 +15,4 @@ begin
     if count = 2 then writeln('True') else writeln('False');
     readln
 end.
+//tang quang dung
