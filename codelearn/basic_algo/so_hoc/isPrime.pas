@@ -16,3 +16,18 @@ begin
     readln
 end.
 //tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+//tang quang dung
+
+
