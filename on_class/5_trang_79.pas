@@ -13,14 +13,13 @@ begin
     d := a[2] - a[1];
     for i:=2 to n do
         
-            if (a[i] - a[i-1] <> d) then 
-                begin;
-                    write(oup,'False');
-                    break;
-                end;
+        if (a[i] - a[i-1] <> d) then 
+            begin;
+                write(oup,'False');
+                break;
+            end;
         if i = n then write(oup,'True');
     close(inp);close(oup);
     readln
 end.
 //Tang Quang Dung
-//nothing
