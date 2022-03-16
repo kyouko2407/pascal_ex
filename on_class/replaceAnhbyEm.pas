@@ -14,4 +14,5 @@ Begin
     End; 
     writeln(oup, s); 
     readln
+    close(inp);close(oup);
 End. 
