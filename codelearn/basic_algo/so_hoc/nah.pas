@@ -5,12 +5,12 @@ Begin
     assign(inp,'xau.txt');reset(inp);
     assign(oup,'xau1.txt');rewrite(oup);
     readln(inp,s);
-    i:=Pos('em',s); 
+    i:=Pos('anh',s); 
     While i<> 0 do 
     Begin 
         Delete(s,i,3); 
-        Insert('anh',s,i); 
-        i:=Pos('em',s); 
+        Insert('em',s,i); 
+        i:=Pos('anh',s); 
     End; 
     writeln(oup, s); 
     readln
