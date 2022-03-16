@@ -3,7 +3,7 @@ Var s: string;
     inp, oup: text; 
 Begin 
     assign(inp,'xau.txt');reset(inp);
-    assign(oup,'out.dat');rewrite(oup);
+    assign(oup,'xau.dat');rewrite(oup);
     readln(inp,s);
     i:=Pos('em',s); 
     While i<> 0 do 
