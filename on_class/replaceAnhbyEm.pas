@@ -13,6 +13,7 @@ Begin
         i:=Pos('em',s); 
     End; 
     writeln(oup, s); 
-    readln
     close(inp);close(oup);
+    readln
+    
 End. 
