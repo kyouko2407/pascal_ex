@@ -13,5 +13,6 @@ Begin
         i:=Pos('anh',s); 
     End; 
     writeln(oup, s); 
+    
     readln
 End. 
