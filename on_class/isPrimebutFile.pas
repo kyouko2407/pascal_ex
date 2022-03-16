@@ -9,7 +9,7 @@ begin
             count := 0;
             for i:= 1 to n do 
                 if (n mod i = 0) then count := count + 1;
-            if count = 2 then writeln(oup,'True') else writeln(oup,'False');
+            if count = 2 then writeln(oup,(n, ' la so nguyen to')) else writeln(oup,(n,' khong la so nguyen to'));
         end;
     close(inp);close(oup);
     readln
