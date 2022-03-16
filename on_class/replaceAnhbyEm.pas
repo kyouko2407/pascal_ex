@@ -2,9 +2,9 @@ Var s: string;
     i: byte;
     inp, oup: text; 
 Begin 
-    assign(inp,'in.txt');reset(inp);
-    assign(oup,'out.txt');rewrite(oup);
-    
+    assign(inp,'xau.txt');reset(inp);
+    assign(oup,'out.dat');rewrite(oup);
+    readln(inp,s);
     i:=Pos('em',s); 
     While i<> 0 do 
     Begin 
@@ -12,6 +12,6 @@ Begin
         Insert('anh',s,i); 
         i:=Pos('em',s); 
     End; 
-    writeln(s); 
+    writeln(oup, s); 
     readln
 End. 
