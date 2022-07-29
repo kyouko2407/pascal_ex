@@ -1,0 +1,13 @@
+var a,b,c,d: longint;
+ucln, bcnn: integer;
+begin
+readln(a,b);
+c := a;
+d := b;
+while (c <> d) do
+if (c > d) then c := (c - d) else d := (d - c);
+writeln(c);
+writeln(a*b/c);
+readln
+end.
+
